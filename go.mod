@@ -706,7 +706,6 @@ require (
 	github.com/prometheus-community/go-runit v0.1.0 // indirect
 	github.com/prometheus-community/prom-label-proxy v0.6.0 // indirect
 	github.com/prometheus/alertmanager v0.27.0 // indirect
-	github.com/prometheus/exporter-toolkit v0.11.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/relvacode/iso8601 v1.4.0 // indirect
 	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
@@ -830,6 +829,7 @@ require (
 	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/topic v0.112.0 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
+	github.com/prometheus/exporter-toolkit v0.13.0 // indirect
 	go.opentelemetry.io/collector/connector/connectorprofiles v0.112.0 // indirect
 	go.opentelemetry.io/collector/consumer/consumererror v0.112.0 // indirect
 	go.opentelemetry.io/collector/consumer/consumererror/consumererrorprofiles v0.112.0 // indirect
@@ -901,9 +901,10 @@ replace (
 	github.com/google/cadvisor => github.com/grafana/cadvisor v0.0.0-20240729082359-1f04a91701e2
 
 	github.com/prometheus-community/postgres_exporter => github.com/grafana/postgres_exporter v0.15.1-0.20240417113938-9358270470dd
+	github.com/prometheus/exporter-toolkit => github.com/prometheus/exporter-toolkit v0.11.0
 
 	// TODO(marctc): remove once this PR is merged upstream: https://github.com/prometheus/mysqld_exporter/pull/774
-	github.com/prometheus/mysqld_exporter => github.com/grafana/mysqld_exporter v0.15.1-0.20240909163808-dec628bde813
+	github.com/prometheus/mysqld_exporter => github.com/grafana/mysqld_exporter v0.15.1-0.20241014135602-1f5a8998ad7d
 
 	// TODO(marctc, mattdurham): Replace node_export with custom fork for multi usage. https://github.com/prometheus/node_exporter/pull/2812
 	github.com/prometheus/node_exporter => github.com/grafana/node_exporter v0.18.1-grafana-r01.0.20231004161416-702318429731
